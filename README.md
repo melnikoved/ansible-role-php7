@@ -19,8 +19,7 @@ Example Playbookw
 ----------------
     - hosts: servers
       roles:
-         - { role: melnikoved/ansible-role-php7}
-
+         - { role: melnikoved.php7}
 
 Author Information
 ------------------
