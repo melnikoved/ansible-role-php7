@@ -1,0 +1,14 @@
+---
+galaxy_info:
+  author: Eduard Melnikov
+  description: Install php7 to Centos6
+  min_ansible_version: 1.4
+
+  platforms:
+  - name: EL
+    versions:
+    - 6
+
+  categories:
+  - development
+  - web
