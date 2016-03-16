@@ -15,11 +15,11 @@ Dependencies
 ------------
 NO
 
-Example Playbook
+Example Playbookw
 ----------------
     - hosts: servers
       roles:
-         - { role: melnikov-centos6-php7}
+         - { role: melnikoved.php7_on_centos6}
 
 
 Author Information
