@@ -1,0 +1,16 @@
+- name: Add repository EPEL
+  yum:
+    name: http://download.fedoraproject.org/pub/epel/6/i386/epel-release-6-8.noarch.rpm
+
+- name: Add repository PHP7
+  yum:
+    name: https://mirror.webtatic.com/yum/el6/latest.rpm
+
+- name: Install PHP 7.0
+  yum:
+    name: "{{ item }}"
+    state: latest
+  with_items:
+  - php70w
+  - php70w-fpm
+  - php70w-opcache
